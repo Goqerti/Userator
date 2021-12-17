@@ -35,3 +35,14 @@ Botu telegramı daha rahat istifadə eləmək xaricində əylənmək
 ## Yaradıcı / Creator
 
 [Ümüd Məmmədov](https://t.me/umudmmmdov1)
+
+## Credits
+Thanks for;
+
+[Seden UserBot](https://github.com/TeamDerUntergang/Telegram-UserBot)
+
+[Userge](https://github.com/UsergeTeam/Userge)
+
+[Spechide](https://github.com/Spechide)
+
+[Asena User Bot](https://github.com/yusufusta/asenauserbot)
