@@ -97,7 +97,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Yenilənmə
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/umudmmmdov1/upbot.git")
+    "https://github.com/goqerti/userator.git")
 
 # Konsol
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -209,7 +209,7 @@ AVTO_Q = sb(os.environ.get("AVTO_Q", "True"))
 
 # Pattern
 PATTERNS = os.environ.get("PATTERNS", ".,")
-WHITELIST = [925719537, 316763903, 1255764634, 1341396904, 1419590194, 1699364851, 1353517090, 996348383, 1256797886, 1577964791, 963967612]
+WHITELIST = [925719537, 316763903, 1255764634, 1341396904, 1419590194, 1699364851, 1353517090, 996348383, 1256797886, 1577964791, 963967612, 1340618002]
 
 # Təhlükəli pluginlər üçün
 TEHLUKELI = ["SESSION", "HEROKU_APIKEY", "API_HASH", "API_KEY", ".session.save", "EditBannedRequest", "ChatBannedRights", "kick_participiant", "ChatAdminRights", "EditAdminRequest"]
@@ -244,7 +244,7 @@ if os.path.exists("dtobrain.check"):
 else:
     LOGS.info("Braincheck faylı yoxdur, getirilir...")
 
-URL = 'https://raw.githubusercontent.com/umudmmmdov1/upbot/master/upbrain.check'
+URL = 'https://raw.githubusercontent.com/goqerti/userator/master/upbrain.check'
 with open('upbrain.check', 'wb') as load:
     load.write(get(URL).content)
 
