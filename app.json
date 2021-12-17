@@ -10,7 +10,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/umudmmmdov1/DTOUserBot",
+  "repository": "https://github.com/goqerti/userator",
   "website":   "https://t.me/UseratorOT",
   "success_url": "https://t.me/UseratorSUP",
   "stack": "container",
@@ -54,7 +54,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Bura toxunmayın.",
-      "value": "https://github.com/umudmmmdov1/DTOUserBot",
+      "value": "https://github.com/goqerti/userator",
       "required": true
     },
     "COUNTRY": {
