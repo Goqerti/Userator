@@ -20,7 +20,7 @@
 
 ### Heroku ilə deploy / Deploying To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/umudmmmdov1/upbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/goqerti/userator)
 
 ## Məlumat / Info
 <h5 align="center">Botun yanlış istifadəsi halında məsuliyyət tamamilə istifadəçiyə
