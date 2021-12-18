@@ -1,6 +1,6 @@
 # Copyright (C) 2020
 # U S Σ R Δ T O R / Ümüd
-
+#
 """ UserBot hazırlanışı """
 
 import os
