@@ -97,7 +97,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Yenilənmə
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/goqerti/Userator.git")
+    "https://github.com/Goqerti/Userator.git")
 
 # Konsol
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -356,7 +356,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
                         [custom.Button.url("Kanala Qatıl", "https://t.me/UseratorOT"), custom.Button.url(
                             "Qrupa Qatıl", "https://t.me/UseratorSUP")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/umudmmmdov1/Userator")]
+                            "GitHub", "https://github.com/Goqerti/Userator")]
                     ],
                     link_preview=False
                 )
