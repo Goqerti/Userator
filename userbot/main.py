@@ -140,7 +140,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    dtobl = requests.get('https://raw.githubusercontent.com/goqerti/userator/main/upx.json').json()
+    dtobl = requests.get('https://raw.githubusercontent.com/goqerti/userator/master/upx.json').json()
     if idim in dtobl:
         bot.disconnect()
 
