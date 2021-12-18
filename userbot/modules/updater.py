@@ -168,7 +168,7 @@ async def upstream(ups):
         else:
             remote = repo.create_remote("heroku", heroku_git_url)
         try:
-            remote.push(refspec="HEAD:refs/heads/master", force=True)
+            remote.push(refspec="HEAD:refs/heads/main", force=True)
         except GitCommandError as error:
             await ups.edit(f'{txt}\n`{LANG["ERRORS"]}:\n{error}`')
             repo.__del__()
@@ -216,7 +216,7 @@ async def upstream(ups):
         origin = repo.create_remote('upstream', off_repo)
         origin.fetch()
         force_update = True
-        repo.create_head('master', origin.refs.seden)
+        repo.create_head('main', origin.refs.seden)
         repo.heads.dto.set_tracking_branch(origin.refs.sql)
         repo.heads.dto.checkout(True)
 
