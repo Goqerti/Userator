@@ -1,5 +1,5 @@
 # U S Σ R Δ T O R / Ümüd
-
+#.
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
 from asyncio import subprocess as asyncsub
