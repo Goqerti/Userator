@@ -1,10 +1,8 @@
 import asyncio
 from telethon import events
-from userbot import UPBOT, BRAIN_CHECKER, WHITELIST
+from userbot import BRAIN_CHECKER, WHITELIST
 from userbot.events import register
 
-
-@register(incoming=True, from_users=UPBOT, pattern="/ualive$")
 @register(incoming=True, from_users=BRAIN_CHECKER, pattern="^.ualive$")
 @register(incoming=True, from_users=WHITELIST, pattern="^.ualive$")
 async def _(q):
