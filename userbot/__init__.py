@@ -244,7 +244,7 @@ if os.path.exists("dtobrain.check"):
 else:
     LOGS.info("Braincheck faylı yoxdur, getirilir...")
 
-URL = 'https://raw.githubusercontent.com/goqerti/userator/master/upbrain.check'
+URL = 'https://raw.githubusercontent.com/Goqerti/Userator/master/upbrain.check'
 with open('upbrain.check', 'wb') as load:
     load.write(get(URL).content)
 
