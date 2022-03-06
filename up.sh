@@ -45,4 +45,4 @@ echo -e $BOSLUQ
 echo -e $BOSLUQ
 cd Qurulum
 pip install -r requirements.txt
-python -m up_installer
+python -m up_qurulum
