@@ -21,6 +21,5 @@ cd Qurulum
 clear
 echo "U S Σ R Δ T O R ✨"
 echo -e $MESAJ
-pip install wheel
 pip install -r requirements.txt
 python3 -m up_qurulum
