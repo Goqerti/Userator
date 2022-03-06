@@ -1,9 +1,10 @@
 MESAJ="U S Σ R Δ T O R ✨"
-pkg update -y
+pkg update -y && pkg upgrade
 clear
 echo -e $MESAJ
 echo "Python ✅"
-pkg install python -y
+pkg install python3
+pip3 install --upgrade pip
 clear
 echo -e $MESAJ
 echo "Git ✅"
