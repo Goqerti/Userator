@@ -1,12 +1,25 @@
-pkg install python
+MESAJ="U S Σ R Δ T O R ✨"
+pkg update -y
 clear
-pkg install python3
+echo -e $MESAJ
+echo "Python ✅"
+pkg install python -y
 clear
-pkg update
+echo -e $MESAJ
+echo "Git ✅"
+pkg install git -y
 clear
+echo -e $MESAJ
+echo "TeleThon ✅"
+pip install telethon
+echo "Repo ✅"
 git clone https://github.com/uumud/Qurulum
 clear
-cd up_qurulum
+echo -e $MESAJ
+cd Qurulum
 clear
+echo "U S Σ R Δ T O R ✨"
+echo -e $MESAJ
+pip install wheel
 pip install -r requirements.txt
-python3 -m up_qurulum && exit
+python3 -m up_qurulum
